@@ -227,6 +227,16 @@ button{
     gap: 24px;
     margin-top: 22px;
 }
+.puntoOppcion{
+    display: flex;
+    gap: 50px;
+}
+.conte22{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    font-size: 22px;
+}
 .iconos a{
     text-decoration: none;
     color: black;
