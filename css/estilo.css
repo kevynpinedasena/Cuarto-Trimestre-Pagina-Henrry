@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #1e172f;
+}
+
+.menu{
+    display: flex;
+    gap: 84px;
+}
+.menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    border: none;
+    width: 103px;
+    height: 33px;
+    border-radius: 5px;
+}
+.menu button{
+    background: linear-gradient(to right, rgb(145 0 205), rgb(8 122 219));
+}
+
+.cart1{
+    display: flex;
+    flex-direction: row;
+}
+.izquie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    width: 50%;
+    background-color: #46356d;
+    color: white;
+}
+.titu h2{
+    width: 20%;
+    font-size: 100px;
+}
+.parrafo p{
+    font-size: 20px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    gap: 40px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 50px;
+    gap: 10px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.primerBoton button{
+    color: rgb(216, 83, 216);
+}
+.segundoBoton button{
+    color: white;
+    border: solid 1px white;
+    background-color: #46356d;
+}
+.botones button{
+    width: 146px;
+    height: 39px;
+}
+.dere{
+    background-image: url(../images/hojasFondo.jfif);
+    width: 50%;
+    height: 690px;
+    background-size: 1232px;
+    background-position-x: -170px;
+
+}
+.dere img {
+    display: flex;
+    align-items: center;
+    width: 255px;
+    padding: 70px 0px;
+}
+.telefo{
+    padding-left: 300px;
+    margin-top: 50px;
+}
+
+.cart2{
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+}
+.titu22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 165px;
+    color: rgb(241, 31, 189);
+    padding: 35px;
+}
+.conte2{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 35px;
+}
+.imagee{
+    width: 50%;
+}
+.imagee img{
+    width: 642px;
+    margin-left: 60px;
+}
+.tex{
+    width: 40%;
+}
+.tex p{
+    padding: 42px 0px;
+    font-size: 22px;
+}
+.tite2 h3{
+    font-size: 33px;
+    color: rgb(248, 19, 160);
+
+}
+.tite h2{
+    color: rgb(248, 3, 187);
+    font-size: 50px;
+}
+.parrafoo p{
+    padding: 5px 0px;
+    font-size: 25px;
+}
+
+.cart3{
+    height: 1143px;
+    background-color: rgb(30 23 47);
+    margin-top: 138px;
+}
+.titu12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.titu12 h1{
+    color: white;
+    font-size: 60px;
+}
+.parrafe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.parrafe p{
+    color: white;
+    font-size: 18px;
+    padding: 67px 356px;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px 132px;
+    
+}
+.cata1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 31%;
+    height: 740px;
+    background-color: white;
+}
+.contCata1{
+    width: 100%;
+}
+.pesos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 26px;
+    justify-content: center;
+    background-color: rgb(190, 192, 194);
+    height: 62px;
+    gap: 10px;
+}
+.peso h2{
+    font-size: 40px;
+}
+.imee{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+}
+.imee img{
+    display: flex;
+    width: 90px;
+}
+.letra p{
+    font-size: 25px;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    margin-top: 22px;
+}
+.iconos a{
+    text-decoration: none;
+    color: black;
+}
+
+.part1 p {
+    display: flex;
+    margin-top: 33px;
+    font-size: 20px;
+    padding: 0px 44px;
+}
+.otroBoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(190 192 194);
+    margin-top: 65px;
+    height: 59px;
+}
+.otroBoto button{
+    background-color: #46356d;
+    color: white;
+    width: 50%;
+    height: 73%;
+    font-size: 19px;
+    border-radius: 3px;
+}
+
+.otroBoto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(190 192 194);
+    margin-top: 65px;
+    height: 59px;
+}
+.otroBoto1 button{
+    background: linear-gradient(to left, rgb(247 20 93), rgb(255 119 182));
+    color: white;
+    width: 50%;
+    height: 73%;
+    font-size: 19px;
+    border-radius: 3px;
+}
+.tito1 h3{
+    color: #ec5ca6;
+    font-size: 25px;
+}
+.imee h3{
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    gap: 158px;
+}
+.izquiParra p{
+    font-size: 24px;
+}
+.colorEstrella{
+    color: #f30c83;
+}
+.botonRosado{
+    color: #f30c83;
+}
